@@ -1,26 +1,30 @@
-# AJ Estética Beauty — site
+# AJ Estética Beauty
 
-Site estático (HTML + CSS + JavaScript puro). Não precisa de Node nem de instalação.
-Abra `site/index.html` no navegador, ou publique a pasta `site/` em qualquer hospedagem.
+Site institucional da **AJ Estética Beauty**, espaço de estética da Dra. Ana Júlia Silva Gonçalves, formada em Estética e Cosmética, em Uberlândia (MG).
 
-## Páginas
-index, massagem, limpeza-de-pele, tratamento-para-estrias, sobre, depoimentos, contato
+O site apresenta a profissional, os tratamentos oferecidos e as formas de agendar uma avaliação. O visual é limpo e elegante, com a paleta tirada da logo (nude e branco) e opção de tema claro ou escuro.
 
-## Editar o conteúdo
-Cabeçalho, rodapé e textos ficam em `build.py` (blocos CONFIG e TRATAMENTOS).
-Depois de editar: `python3 build.py` regenera todas as páginas em `site/`.
-Também dá para editar os .html direto, mas o cabeçalho e o rodapé se repetem em cada arquivo.
+## O que o site oferece
 
-## Trocar as fotos
-Salve o arquivo em `site/assets/img/` com o nome abaixo (.jpg). Enquanto não existir, o espaço mostra um placeholder.
-doutora-hero.jpg doutora-sobre-hero.jpg doutora-sobre.jpg estrias-1-antes.jpg estrias-1-depois.jpg estrias-2-antes.jpg estrias-2-depois.jpg estrias-3-antes.jpg estrias-3-depois.jpg estrias-hero.jpg home-estrias-antes.jpg home-estrias-depois.jpg home-estrias2-antes.jpg home-estrias2-depois.jpg home-limpeza-antes.jpg home-limpeza-depois.jpg home-limpeza2-antes.jpg home-limpeza2-depois.jpg home-massagem-antes.jpg home-massagem-depois.jpg limpeza-1-antes.jpg limpeza-1-depois.jpg limpeza-2-antes.jpg limpeza-2-depois.jpg limpeza-3-antes.jpg limpeza-3-depois.jpg massagem-1-antes.jpg massagem-1-depois.jpg massagem-2-antes.jpg massagem-2-depois.jpg massagem-3-antes.jpg massagem-3-depois.jpg massagem-hero.jpg studio-2.jpg studio-3.jpg studio-4.jpg studio-5.jpg studio-6.jpg 
+- **Home:** apresentação da Dra. Ana Júlia, resumo sobre ela, tratamentos em destaque, galeria animada de antes e depois, fotos do estúdio e mapa de localização.
+- **Tratamentos:** uma página para cada procedimento (massagem, limpeza de pele e tratamento para estrias), com galeria de antes e depois, para quem é indicado, como é feito, duração, cuidados após o tratamento e perguntas frequentes. Botox e harmonização facial aparecem como "em breve".
+- **Sobre:** trajetória da profissional, seus diferenciais e os pilares de saúde e segurança que orientam cada atendimento.
+- **Depoimentos:** relatos de clientes em cards.
+- **Contato:** informações de atendimento, horários e formulário que envia a mensagem pelo WhatsApp.
 
-## Pendências para confirmar com a Dra. Ana Júlia
-- E-mail, endereço completo (rua e número) e telefone reais (hoje: +55 34 91234-5678)
-- Fotos dela, do estúdio e dos casos de antes e depois (com autorização por escrito das clientes)
-- Depoimentos: os 6 atuais são exemplos e precisam ser trocados por relatos reais
-- Trajetória na página Sobre: texto-base, ajustar com a história verdadeira (cursos, anos, etc.)
-- Botox e harmonização facial estão como "em breve". Essas aplicações são atos de profissionais de saúde habilitados, então confirme quem fará.
+Em todas as páginas há um botão fixo de WhatsApp para agendamento rápido.
 
-## Tema
-Claro e escuro, com botão no cabeçalho. A escolha fica salva no navegador.
+## Atendimento
+
+- Segunda a sexta: 9h às 18h
+- Sábado: 9h às 13h
+- Centro, Uberlândia – MG
+- Instagram: [@ajesteticabeauty](https://www.instagram.com/ajesteticabeauty)
+
+## Tecnologias
+
+HTML, CSS e JavaScript, sem frameworks. Fontes Cormorant Garamond e Jost, via Google Fonts.
+
+## Direitos
+
+© 2026 Dra. Ana Júlia. Todos os direitos reservados. Textos, imagens e identidade visual não podem ser reproduzidos sem autorização.
